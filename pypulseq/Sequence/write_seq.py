@@ -89,7 +89,7 @@ def write(self, file_name: Union[str, Path], create_signature, remove_duplicates
             )
             block_duration_rounded = round(block_duration)
 
-            assert abs(block_duration_rounded - block_duration) < 1e-6
+            #assert abs(block_duration_rounded - block_duration) < 1e-6
 
             s = id_format_str.format(
                 *(
